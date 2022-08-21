@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1300px;
+    margin: 50px auto;
+}
+
+.section-title {
+    font-size: 2rem;
+}
+
+.section-title span {
+    color: #F06424;
+}
+
+.section-link {
+    transition: ease-in 0.3s;
+    color: #F06424;
+}
+
+.section-link:hover {
+    transform: scale(130%);
+}
+
+/* Maker Brand */
+.maker-brand-cont {
+    background-color: #EFEFEF;
+    padding: 22px 0;
+}
+
+.section-top {
+    width: 1230px;
+    margin: 0 auto 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.maker-brand {
+    width: 1230px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 13px;
+}
+
+.brand-cont {
+    height: 130px;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: ease-in 0.3s;
+}
+
+.brand-cont:hover {
+    background-color: #F0DED6;
+}
+
+.brand-cont img {
+    width: 50px;
+    height: auto;
+}
+
+.brand-cont p {
+    color: #596A81;
+    font-size: 0.9rem;
+}
+
+
+/* Car Card */
+.featured-car {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.card-cont {
+    width: 312px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+}
+
+.car-photo-cont {
+    position: relative;
+}
+
+.car-photo-cont img {
+    width: 100%;
+    height: auto;
+}
+
+.compare-btn {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    background-color: #F06424;
+    color: #FFFFFF;
+    border: 0;
+    padding: 10px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.compare-btn:hover {
+    background-color: #FFFFFF;
+    color: #F06424;
+}
+
+.brand-txt {
+    color: #868686;
+    font-weight: bold;
+}
+
+.model-txt {
+    color: #F06424;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 0.3rem 0;
+}
+
+.price-cont {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.price-txt {
+    color: #000000;
+    font-weight: bold;
+}
+
+.price-cont img {
+    width: 20px;
+    height: auto;
+}
+
+.cat-txt {
+    font-size: 1rem;
+    color: #767676;
+    margin: 0.5rem 0;
+}
+
+.cat-special {
+    color: #555555;
+    font-weight: bold;
+}
+
+.year-txt {
+    color: #767676;
+}
+
+.car-info {
+    padding: 15px;
+}
+
+.features-cont {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.feature-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-cont img {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    padding: 2px;
+    border-radius: 50%;
+}
+
+.feature-cont p {
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.buy-btn-cont {
+    width: 100%;
+    height: 45px;
+    margin-top: -15px;
+}
+
+.buy-btn-cont button {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    background-color: #E8E8E8;
+    color: #F06424;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: ease-in 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy-btn-cont button:hover {
+    background-color: #F06424;
+    color: #FFFFFF;
+}
+
+.buy-btn-cont button:hover .icon-gt {
+    fill: #FFFFFF;
+}
+
+.icon-gt {
+    width: 25px;
+    height: auto;
+    fill: #F06424;
+    transition: ease-in 0.4s;
+}
